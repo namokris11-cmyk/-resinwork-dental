@@ -1,0 +1,969 @@
+{
+  "metadata": {
+    "title": "Resin Work – Professionelle Harzlösungen",
+    "description": "Marktführer für hochwertige Harzlösungen in den Bereichen Dental, Schmuck und Funktionstechnik.",
+    "keywords": "Harz, Dentalharz, Schmuckharz, Funktionsharz, Filamente, 3D-Druck"
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "contractMfg": "Lohnfertigung",
+    "diy": "DIY",
+    "resources": "Ressourcen",
+    "shop": "Shop",
+    "contactUs": "Kontakt",
+    "navItems": [
+      {
+        "name": "Dental",
+        "href": "/dental",
+        "hasSubmenu": true,
+        "image": "/product-img/4.png",
+        "products": [
+          {
+            "id": 6,
+            "name": "Model 4",
+            "navic_id": "model_4",
+            "description": "Resinwork® Model 4 ist ein fortschrittliches, IPA-abwaschbares 3D-Druckharz für dentale Thermoform-Anwendungen...",
+            "image": "/product-img/Model 4 Drama 1.jpg"
+          },
+          {
+            "id": 1,
+            "name": "Model 3",
+            "navic_id": "model_3",
+            "description": "Resinwork® Model 3 ist ein IPA- und wasserabwaschbares Photopolymerharz für den 3D-Druck von Zahnmodellen...",
+            "image": "/product-img/s-p1.png"
+          },
+          {
+            "id": 2,
+            "name": "Model 2",
+            "navic_id": "model_2",
+            "description": "Resinwork® Model 2 ist ein wasserabwaschbares Photopolymerharz für den 3D-Druck von Zahnmodellen...",
+            "image": "/product-img/f-main.png"
+          },
+          {
+            "id": 3,
+            "name": "Digitale Zahnprothesen",
+            "navic_id": "dentures",
+            "description": "Bekämpfen Sie das Zähneknirschen und -pressen durch die Bereitstellung von mehr Nachtschienen mit Resinwork...",
+            "image": "/product-img/p4-main.png"
+          },
+          {
+            "id": 4,
+            "name": "Chirurgische Schablonen",
+            "navic_id": "surgical_guide",
+            "description": "Erhalten Sie alle klinischen Vorteile der geführten Chirurgie mit schnellen Durchlaufzeiten...",
+            "image": "/product-img/tmain.png"
+          },
+          {
+            "id": 5,
+            "name": "Schienen & Nachtschienen",
+            "navic_id": "splints",
+            "description": "Bekämpfen Sie das Zähneknirschen und -pressen durch die Bereitstellung von mehr Nachtschienen mit Resinwork...",
+            "image": "/product-img/new2.png"
+          }
+        ]
+      },
+      {
+        "name": "Schmuck",
+        "href": "/dental",
+        "hasSubmenu": true,
+        "image": "/category-home/5.png",
+        "products": [
+          {
+            "id": 1,
+            "name": "Gießen / Ausbrennen",
+            "navic_id": "casting_burnout",
+            "description": ""
+          },
+          {
+            "id": 2,
+            "name": "Wachsbares Harz",
+            "navic_id": "waxable_resin",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Funktionalität",
+        "href": "/dental",
+        "hasSubmenu": true,
+        "image": "/category-home/2.png",
+        "products": [
+          {
+            "id": 1,
+            "name": "Flexibel",
+            "navic_id": "flexible",
+            "description": ""
+          },
+          {
+            "id": 2,
+            "name": "Flex & Dehnung",
+            "navic_id": "flex_elongation",
+            "description": ""
+          },
+          {
+            "id": 3,
+            "name": "Super zäh",
+            "navic_id": "super_tough",
+            "description": ""
+          },
+          {
+            "id": 4,
+            "name": "Hart",
+            "navic_id": "hard",
+            "description": ""
+          },
+          {
+            "id": 5,
+            "name": "ABS-ähnlich",
+            "navic_id": "abs_like",
+            "description": ""
+          },
+          {
+            "id": 6,
+            "name": "Standard",
+            "navic_id": "standard",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Filamente",
+        "href": "/dental",
+        "hasSubmenu": true,
+        "image": "/category-home/4.png",
+        "products": [
+          {
+            "id": 1,
+            "name": "PLA",
+            "navic_id": "pla",
+            "description": "Resinwork® Model 3 ist ein IPA- und wasserabwaschbares Photopolymerharz für den 3D-Druck von Zahnmodellen..."
+          },
+          {
+            "id": 2,
+            "name": "PLA+",
+            "navic_id": "pla_plus",
+            "description": ""
+          },
+          {
+            "id": 3,
+            "name": "PEEK",
+            "navic_id": "peek",
+            "description": "Bekämpfen Sie das Zähneknirschen und -pressen durch die Bereitstellung von mehr Nachtschienen mit Resinwork..."
+          },
+          {
+            "id": 4,
+            "name": "Kohlefaser",
+            "navic_id": "carbon_fibre",
+            "description": "Erhalten Sie alle klinischen Vorteile der geführten Chirurgie mit schnellen Durchlaufzeiten..."
+          },
+          {
+            "id": 5,
+            "name": "PLA + Additiv",
+            "navic_id": "pla_additive",
+            "description": "Bekämpfen Sie das Zähneknirschen und -pressen durch die Bereitstellung von mehr Nachtschienen mit Resinwork..."
+          }
+        ]
+      },
+      {
+        "name": "Unternehmen",
+        "href": "/dental",
+        "hasSubmenu": false
+      }
+    ],
+    "partnerWithUs": "Partner werden",
+    "navigation": "Navigation",
+    "settings": "Einstellungen",
+    "getStarted": "Loslegen"
+  },
+  "Slides": {
+    "slide0": {
+      "heading": "",
+      "text": "",
+      "button": ""
+    },
+    "slide1": {
+      "heading": "",
+      "text": "",
+      "button": ""
+    },
+    "slide2": {
+      "heading": "Präzisions­gefertigt, <br /> Für die Zahnmedizin konzipiert!",
+      "text": "Unsere Harze sind die vertrauenswürdige Wahl für Zahnärzte, die Genauigkeit und Zuverlässigkeit verlangen.",
+      "button": "Entdecken"
+    },
+    "slide3": {
+      "heading": "Sanft, präzise, <br /> und gussbereit",
+      "text": "Verwirklichen Sie Schmuckdesigns mit Klarheit und Präzision, bereit zum Gießen.",
+      "button": "Produkte ansehen"
+    },
+    "slide4": {
+      "heading": "Präzisions­gefertigt, <br /> Für die Zahnmedizin konzipiert!",
+      "text": "Vertrauen Sie auf Zahnärzte für hochleistungsfähige Ergebnisse.",
+      "button": "Mehr erfahren"
+    }
+  },
+  "Timeline": {
+    "tab1": {
+      "title": "Forschung und Entwicklung",
+      "heading": "Interne F&E",
+      "content": "Unsere hauseigene F&E‑Einrichtung in Deutschland und Indien ist ein Zentrum der Innovation, in dem fortschrittliche Materialwissenschaft auf branchenorientierte Lösungen trifft, um bahnbrechende 3D‑Druckharze zu schaffen. Durch das Verschieben der Grenzen von Leistung und Anpassungsfähigkeit befähigen wir Industrien, beispiellose Ergebnisse in der additiven Fertigung zu erzielen."
+    },
+    "tab2": {
+      "title": "Fertigung",
+      "heading": "Interne Fertigung",
+      "content": "Mit hochmodernen Fertigungsanlagen liefern wir konsistent hochwertige 3D‑Druckharze in großem Maßstab. Unsere Produktionsprozesse verbinden präzise Technik mit strenger Qualitätskontrolle, um sicherzustellen, dass jede Charge den hohen Anforderungen industrieller Anwendungen in verschiedensten Sektoren gerecht wird."
+    },
+    "tab3": {
+      "title": "CDMO",
+      "heading": "Organisation für Vertragsentwicklung und ‑fertigung",
+      "content": "Organisation für Vertragsentwicklung und ‑fertigung. Mit hochmodernen Fertigungsanlagen liefern wir konsistent hochwertige 3D‑Druckharze in großem Maßstab. Unsere Produktionsprozesse verbinden präzise Technik mit strenger Qualitätskontrolle, um sicherzustellen, dass jede Charge den hohen Anforderungen industrieller Anwendungen in verschiedensten Sektoren gerecht wird."
+    },
+    "tab4": {
+      "title": "Technologie",
+      "heading": "Technologische Innovation",
+      "content": "Mit hochmodernen Fertigungsanlagen liefern wir konsistent hochwertige 3D‑Druckharze in großem Maßstab. Unsere Produktionsprozesse verbinden präzise Technik mit strenger Qualitätskontrolle, um sicherzustellen, dass jede Charge den hohen Anforderungen industrieller Anwendungen in verschiedensten Sektoren gerecht wird."
+    }
+  },
+  "LogoAnimation": {
+    "heading": "Schnelle, effiziente, zuverlässige 3D‑Drucklösungen",
+    "subHeading": "Drucklösungen",
+    "content": "Bei Resinwork bieten wir moderne 3D‑Druckharze, die hochwertige, präzise Ergebnisse mit Geschwindigkeit und Konsistenz liefern. Ob Sie in der Fertigung, Prototyping oder Produktentwicklung sind, unsere Lösungen sind auf die Anforderungen jeder Industrie ausgerichtet und helfen Ihnen, innovativer zu sein und schneller und effizienter zu arbeiten."
+  },
+  "GradientText": {
+    "text": "Genauigkeit, Zuverlässigkeit und Innovation sind die Eckpfeiler, die RESINWORK definieren. Jede Formel ist das Ergebnis einer umfassenden in-house-Entwicklung und wird mit fortschrittlichen Technologien und strenger Qualitätskontrolle hergestellt. Unsere Produkte werden von Profis aus verschiedenen Branchen wie Zahnmedizin, Ingenieurwesen, Schmuck und mehr vertraut."
+  },
+  "Solution": {
+    "heading": "Unsere Lösungen",
+    "data": {
+      "1": {
+        "title": "Zahnmedizin",
+        "description": "Benutzerdefinierte Zahnmuster, Ausrüstung und Ausrichter werden mit medizinisch‑gradigen Materialien hergestellt, um eine perfekte Patientenpassform zu erreichen."
+      },
+      "2": {
+        "title": "Funktionalität",
+        "description": "Präzisions‑geformte Teile für mechanische Anwendungen mit außergewöhnlicher Haltbarkeit."
+      },
+      "3": {
+        "title": "DIY",
+        "description": "Modernste Drucktechnologie mit präziser Extrusionskontrolle für komplexe Geometrien."
+      },
+      "4": {
+        "title": "Schmuck",
+        "description": "Hochdetaillierte Charaktermodelle und Prototypen für die Unterhaltungs- und Spielebranche."
+      },
+      "5": {
+        "title": "Filamente",
+        "description": "Spezialisierte Harze und Filamente für einzigartige Anwendungen mit kundenspezifischen Eigenschaften."
+      }
+    }
+  },
+  "BentoCards": {
+    "heading": "Schnelle, effiziente, zuverlässige 3D‑Drucklösungen",
+    "details": "Bei Resinwork bieten wir moderne 3D‑Druckharze, die hochwertige, präzise Ergebnisse mit Geschwindigkeit und Konsistenz liefern. Ob Sie in der Fertigung, Prototyping oder Produktentwicklung sind, unsere Lösungen sind auf die Anforderungen jeder Industrie ausgerichtet und helfen Ihnen, innovativer zu sein und schneller und effizienter zu arbeiten.",
+    "data": {
+      "1": {
+        "title": "Premium‑qualitative Materialien",
+        "desc": "Unsere 3D‑Druckharze werden mit den höchsten Qualitätsstandards hergestellt, um Dauerhaftigkeit, Präzision und optimale Leistung in jedem Druck zu garantieren. Mit"
+      },
+      "2": {
+        "title": "Schnelle Umsetzung",
+        "desc": "Unsere schnellen Harze und effizienten Produktionsprozesse helfen Ihnen, engere Fristen zu erfüllen und Produkte pünktlich und zuverlässig zu liefern."
+      },
+      "3": {
+        "title": "Maßgeschneiderte Lösungen",
+        "desc": "Unsere Harze und Filamente sind für einzigartige Anwendungen mit kundenspezifischen Eigenschaften entwickelt, um die Anforderungen jeder Industrie zu erfüllen."
+      },
+      "4": {
+        "title": "Zuverlässige Leistung",
+        "desc": "Unsere 3D‑Druckharze werden mit den höchsten Qualitätsstandards hergestellt, um Dauerhaftigkeit, Präzision und optimale Leistung in jedem Druck zu garantieren."
+      },
+      "5": {
+        "title": "Schnelle Umsetzung",
+        "desc": "Unsere schnellen Harze und effizienten Produktionsprozesse helfen Ihnen, engere Fristen zu erfüllen und Produkte pünktlich und zuverlässig zu liefern."
+      }
+    }
+  },
+  "VideoTab": {
+    "heading": "Next-gen",
+    "subHeading": "3D‑Druckmaterialien für jede Anwendung, jedes Innovation",
+    "tabs": {
+      "1": {
+        "title": "Allgemein"
+      },
+      "2": {
+        "title": "Wasserreinigbar"
+      },
+      "3": {
+        "title": "Gussbereit"
+      },
+      "4": {
+        "title": "Wachsform"
+      }
+    }
+  },
+  "BlogSection": {
+    "blog": "Unsere Blogs",
+    "case": "Fallstudien",
+    "leanr": "Mehr erfahren",
+    "data": {
+      "1": {
+        "date": "02 Dezember 2024",
+        "title": "Was ist die nächste Dekade der 3D‑Drucktechnologie?",
+        "desc": "Additive Manufacturing, gemeinhin als 3D‑Druck bezeichnet, hat bereits Industrien wie die Luftfahrt und die Gesundheitswelt revolutioniert."
+      },
+      "2": {
+        "date": "02 Dezember 2024",
+        "title": "Die Resin-Technologie in der Zahnmedizin",
+        "desc": "Die Resin-Technologie ist eine der neuesten Entwicklungen in der Zahnmedizin und hat sich als eine effektive und innovative Methode für die Herstellung von Zahnmustern und Zahnausrüstungen etabliert."
+      },
+      "3": {
+        "date": "02 Dezember 2024",
+        "title": "Wählen Sie die richtige Resin für Ihre Schmuckwachsmodelle",
+        "desc": "Die Auswahl der richtigen Resin für Ihre Schmuckwachsmodelle ist entscheidend für die Qualität und die Endproduktleistung. In diesem Artikel werden wir die verschiedenen Arten von Resins für Schmuckwachsmodelle und ihre jeweiligen Eigenschaften und Anwendungen diskutieren."
+      },
+      "4": {
+        "date": "15 Januar 2024",
+        "title": "3D‑Druck in der Luftfahrt: Eine Fallstudie",
+        "desc": "Wie unsere Harze‑Lösungen die Gewichtskomponente von Flugzeugen um 30% reduziert haben, ohne die strukturelle Integrität zu beeinträchtigen."
+      },
+      "5": {
+        "date": "22 Dezember 2024",
+        "title": "Erfolgsgeschichte der Zahnimplantate",
+        "desc": "Fallstudie über die Verbesserung der Präzision und die Reduzierung der Produktionszeit um 40% für eine große Zahnlabor mit unseren Zahndruckharzen."
+      },
+      "6": {
+        "date": "05 Mai 2024",
+        "title": "Benutzerdefinierte Schmuckherstellung",
+        "desc": "Wie ein Luxus-Schmuckmarke die Produktion mit unseren hochauflösenden Gießharzen skaliert hat."
+      }
+    },
+    "button": {
+      "explor": "Mehr erfahren",
+      "view": "Alle Fallstudien ansehen"
+    }
+  },
+  "Footer": {
+    "subscribe": {
+      "title": "Abonnieren Sie unsere Updates",
+      "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "submit": "Absenden",
+      "mobileTitle": "Abonnieren Sie unsere Updates"
+    },
+    "contactPrompt": "Bitte füllen Sie das Formular aus, und wir melden uns bei Ihnen.",
+    "form": {
+      "phoneLabel": "Telefonnummer *",
+      "companyLabel": "Unternehmen *",
+      "nameLabel": "Ihr Name *",
+      "emailLabel": "Ihre E-Mail *",
+      "messageLabel": "Ihre Nachricht *",
+      "fieldsMandatory": "* Pflichtfelder"
+    },
+    "quickLinks": {
+      "title": "Schnellzugriff",
+      "home": "Startseite",
+      "jewellery": "Schmuck",
+      "dental": "Dental",
+      "functionality": "Funktionalität",
+      "filaments": "Filamente",
+      "company": "Unternehmen"
+    },
+    "support": {
+      "title": "Support",
+      "orderStatus": "Bestellstatus",
+      "tdsMsds": "TDS / MSDS",
+      "mediaCentre": "Mediacenter",
+      "caseStudies": "Fallstudien",
+      "blogs": "Blogs",
+      "faqs": "FAQs"
+    },
+    "aboutUs": {
+      "title": "ÜBER UNS",
+      "whoWeAre": "Wer wir sind",
+      "services": "Dienstleistungen",
+      "solutions": "Lösungen",
+      "newsEvents": "Neuigkeiten & Veranstaltungen"
+    },
+    "contactUs": {
+      "title": "KONTAKT",
+      "phone": "1800 - 102 - 0525",
+      "hours": "Mo - So - 10:00 - 19:00",
+      "resellers": "Händler"
+    },
+    "bottomLinks": {
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsConditions": "Geschäftsbedingungen",
+      "cookiePolicy": "Cookie-Richtlinie",
+      "sitemap": "Sitemap"
+    },
+    "mobileFooter": {
+      "quickLinks": "Schnellzugriff",
+      "linksColumn1": {
+        "home": "Startseite",
+        "dental": "Dental",
+        "functionality": "Funktionalität",
+        "filaments": "Filamente"
+      },
+      "linksColumn2": {
+        "diy": "DIY",
+        "offerZone": "Angebotszone",
+        "featured": "Empfohlen"
+      },
+      "support": "Support",
+      "supportColumn1": {
+        "orderStatus": "Bestellstatus",
+        "tdsMsds": "TDS / MSDS",
+        "mediaCentre": "Mediacenter"
+      },
+      "supportColumn2": {
+        "caseStudies": "Fallstudien",
+        "blogs": "Blogs",
+        "faqs": "FAQs"
+      },
+      "company": "UNTERNEHMEN",
+      "companyColumn1": {
+        "whoWeAre": "Wer wir sind",
+        "services": "Dienstleistungen",
+        "solutions": "Lösungen"
+      },
+      "companyColumn2": {
+        "newsEvents": "Neuigkeiten & Veranstaltungen",
+        "career": "Karriere",
+        "resellers": "Händler"
+      },
+      "contact": "KONTAKT",
+      "contactInfo": "1800 - 102 - 0525 (Mo - So - 10:00 - 19:00)",
+      "emails": {
+        "information": "Information",
+        "infoAddress": "info@resinwork.com",
+        "sales": "Vertrieb",
+        "salesAddress": "sales@resinwork.com"
+      },
+      "address": {
+        "country": "DEUTSCHLAND",
+        "line1": "Graichen Produktions- und Vertriebs GmbH",
+        "line2": "Darmstädter Straße 127",
+        "line3": "64625 Bensheim"
+      },
+      "bottomLinks": {
+        "privacyPolicy": "Datenschutzrichtlinie",
+        "termsConditions": "Geschäftsbedingungen",
+        "cookiePolicy": "Cookie-Richtlinie"
+      }
+    }
+  },
+  "DentalHeroSection": {
+    "breadcrumb": {
+      "home": "Startseite",
+      "dental": "Dental",
+      "products": "Produkte"
+    },
+    "heading": "Das nächste große Ding in der digitalen Zahnmedizin",
+    "subheading": "3D-Druck in der Zahnarztpraxis hilft zukunftsorientierten Praxen weltweit, ihre Effizienz zu steigern.",
+    "description": "Durch die Nutzung bestehender Technologien der digitalen Zahnmedizin ermöglicht der 3D-Druck, schneller auf die Bedürfnisse von Patienten zu reagieren, Herstellungszeiten erheblich zu verkürzen und neue Behandlungsmöglichkeiten zu erschließen. Mit niedrigen Betriebskosten, minimalem Wartungsaufwand und benutzerfreundlichem Design erleichtern Resinwork-Produkte die Integration von digitaler Zahnmedizin und 3D-Druck in Ihre Praxis."
+  },
+  "DentalProducts": {
+    "download": "Produktdatenblatt herunterladen",
+    "model_3": {
+      "name": "MODEL 3",
+      "subTitle": "3D-Photopolymer-Zahnharz für Vakuum- und Druck-Thermoformen",
+      "description": "Resinwork® Model 3 ist ein mit IPA und Wasser abwaschbares 3D-Druckharz, das speziell für dentale Thermoform-Anwendungen entwickelt wurde. Es bietet hohe Wärmebeständigkeit und Dimensionsgenauigkeit für zuverlässige Ergebnisse unter Vakuum- und Druckbedingungen. Die proprietäre Anti-Haft-Oberflächenchemie erleichtert das Entfernen thermogeformter Schienen, ohne Modell oder Schiene zu beschädigen. Die matte, stabile Oberfläche verhindert zudem das Anhaften an erhitzten Oberflächen und sorgt für gleichbleibende Ergebnisse. Die hohe Pigmentstabilität macht häufiges Umrühren überflüssig. Dank der wasserabwaschbaren Zusammensetzung lässt sich Model 3 einfach mit Wasser reinigen.",
+      "features": {
+        "0": {
+          "title": "IPA- und wasserabwaschbar",
+          "description": "Mit IPA oder Wasser abwaschbar – für eine einfache und flexible Reinigung."
+        },
+        "1": {
+          "title": "Anti-Haft-Formel",
+          "description": "Die proprietäre Oberflächenchemie erleichtert das Entfernen thermogeformter Schienen und reduziert das Risiko von Beschädigungen."
+        },
+        "2": {
+          "title": "Thermoformbar & hitzebeständig",
+          "description": "Hohe Wärmebeständigkeit und eine matte, stabile Oberfläche für zuverlässige Ergebnisse beim Thermoformen."
+        },
+        "3": {
+          "title": "Präzision",
+          "description": "Hohe Dimensionsgenauigkeit für präzise und zuverlässige Zahnmodelle."
+        }
+      }
+    },
+    "model_2": {
+      "name": "MODEL 2",
+      "subTitle": "Wasserabwaschbares Photopolymer für die Zahnmodellierung",
+      "description": "Resinwork® Model 2 ist ein wasserabwaschbares, lichthärtendes Photopolymer-Harz für den 3D-Druck von Zahnmodellen. Es eignet sich für Studienmodelle, abnehmbare Stumpfmodelle sowie Modelle zum Thermoformen von Alignern und Retainern. Die gipshaltige Textur, geringe Schrumpfung und hohe Dimensionsgenauigkeit ermöglichen präzise Modelle mit hohem Detailgrad. Model 2 ist zudem thermoformbar und bietet einen wirtschaftlichen Materialeinsatz.",
+      "features": {
+        "0": {
+          "title": "Wasserabwaschbar",
+          "description": "Einfach mit Wasser zu reinigen – für einen unkomplizierten Workflow."
+        },
+        "1": {
+          "title": "Dimensionsgenauigkeit",
+          "description": "Geringe Schrumpfung und hohe Dimensionsgenauigkeit für präzise Zahnmodelle."
+        },
+        "2": {
+          "title": "Thermoformbar & hitzebeständig",
+          "description": "Das ausgehärtete Material behält seine strukturelle Integrität unter Hitze und Druck und eignet sich für Vakuumformverfahren."
+        },
+        "3": {
+          "title": "Detailgenauigkeit",
+          "description": "Hoher Detaillierungsgrad für eine präzise Wiedergabe von Zahn- und Modelldetails."
+        }
+      }
+    },
+    "surgical_guide": {
+      "name": "Chirurgische Schablonen",
+      "subTitle": "3D‑Drucken hochpräziser chirurgischer Schablonen für nur wenige Euro",
+      "description": "Profitieren Sie von allen Vorteilen der geführten Chirurgie mit schnellen Durchlaufzeiten und minimalen Materialkosten, indem Sie Schablonen direkt in Ihrer Praxis drucken. Laden Sie Ihre Scan‑ und CBCT‑Daten in Resinwork® Cloud Design hoch und erhalten Sie druckfertige 3D‑Dateien, die speziell für Resinwork® Pro entwickelt wurden. Drucken Sie die Schablone in nur 30 Minuten, setzen Sie post‑print Hülsen zur Präzisionssteigerung ein und sterilisieren Sie anschließend. Resinwork® Surgical Guide 2 bietet hervorragende mechanische Eigenschaften und kann autoklaviert werden, ohne die Dimensionsgenauigkeit zu beeinträchtigen.",
+      "features": {
+        "0": {
+          "title": "Ganzkiefer‑Schablonen",
+          "description": "Herstellung aller Arten von Chirurgieschablonen, einschließlich Mehrstellen‑Implantatschablonen und Knochenreduktionsschablonen."
+        },
+        "1": {
+          "title": "Quadranten‑Implantatschablonen",
+          "description": "3D‑Druck bietet einen schnellen, reproduzierbaren Workflow für Implantatschablonen. Scannen, Design bestellen und FDA‑konforme Schablone fertigen."
+        },
+        "2": {
+          "title": "Präzisionsfertigung",
+          "description": "Studien zeigen: Resinwork® Pro ist präziser und konsistenter als herkömmliche Alginatverfahren."
+        },
+        "3": {
+          "title": "Ökonomisch",
+          "description": "Hoch skalierbare Plattform zur Verarbeitung großer Volumina bei minimalen Kosten."
+        }
+      }
+    },
+    "splints": {
+      "name": "Schienen & Nachtschienen",
+      "subTitle": "Wachsen Sie Ihre Praxis mit dem benutzerfreundlichsten 3D‑Druck‑Workflow",
+      "description": "Bekämpfen Sie Zähneknirschen und Zähnepressen, indem Sie Nachtschienen mit Resinwork herstellen. Mit unserem branchenweit einfachsten Workflow – KI‑Design, 3D‑Druck und einfache Nachbearbeitung – gelangen Sie in unter einer Stunde vom Scan zur fertigen Schiene. Langlebige, bei Körpertemperatur flexible Materialien und ein CAD‑freies System machen den Schutz von Zähnen erschwinglich, reproduzierbar und profitabel.",
+      "features": {
+        "0": {
+          "title": "Für Transparenz formuliert",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "1": {
+          "title": "Verbesserte Flexibilität",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "2": {
+          "title": "Vergleich zur ersten Generation",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "3": {
+          "title": "Stoßfestigkeit",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "4": {
+          "title": "Kratzfestigkeit",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        }
+      }
+    },
+    "dentures": {
+      "name": "Digitale Zahnprothesen",
+      "subTitle": "Wachsen Sie Ihre Praxis mit dem benutzerfreundlichsten 3D‑Druck‑Workflow",
+      "description": "Bekämpfen Sie Zähneknirschen und Zähnepressen, indem Sie Nachtschienen mit Resinwork herstellen. Mit unserem branchenweit einfachsten Workflow – KI‑Design, 3D‑Druck und einfache Nachbearbeitung – gelangen Sie in unter einer Stunde vom Scan zur fertigen Schiene. Langlebige, bei Körpertemperatur flexible Materialien und ein CAD‑freies System machen den Schutz von Zähnen erschwinglich, reproduzierbar und profitabel.",
+      "features": {
+        "0": {
+          "title": "Für Transparenz formuliert",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "1": {
+          "title": "Verbesserte Flexibilität",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "2": {
+          "title": "Vergleich zur ersten Generation",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "3": {
+          "title": "Stoßfestigkeit",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        },
+        "4": {
+          "title": "Kratzfestigkeit",
+          "description": "Hoch skalierbare Plattform zur effizienten Verarbeitung großer Volumina."
+        }
+      }
+    },
+    "model_4": {
+      "name": "MODEL 4",
+      "subTitle": "3D-Photopolymer-Zahnharz für Vakuum- und Druck-Thermoformen",
+      "description": "Resinwork® Model 4 ist ein wasserabwaschbares 3D-Druckharz, das speziell für dentale Thermoform-Anwendungen entwickelt wurde. Dank seiner hohen Wärmebeständigkeit und Dimensionsgenauigkeit eignet sich Model 4 für die Herstellung präziser Thermoform-Modelle unter Vakuum- und Druckbedingungen. Die proprietäre Anti-Haft-Oberflächenchemie erleichtert das Entfernen thermogeformter Schienen, ohne Modell oder Schiene zu beschädigen. Die matte, stabile Oberfläche verhindert zudem das Anhaften an erhitzten Oberflächen und sorgt für gleichbleibende Ergebnisse. Die hohe Druckpräzision, Detailwiedergabe und Dimensionsstabilität machen Model 4 zu einer zuverlässigen Lösung für den täglichen Einsatz im zahntechnischen Labor.",
+      "features": {
+        "0": {
+          "title": "Wasserabwaschbar",
+          "description": "Einfach und schnell mit Wasser zu reinigen – ohne IPA."
+        },
+        "1": {
+          "title": "Festigkeit",
+          "description": "Hohe strukturelle Festigkeit für stabile Modelle mit geringer Verformung."
+        },
+        "2": {
+          "title": "Genauigkeit",
+          "description": "Hohe Dimensionsgenauigkeit für präzise und zuverlässige Zahnmodelle."
+        },
+        "3": {
+          "title": "Präzision",
+          "description": "Scharfe Details und eine präzise Wiedergabe feiner Oberflächenstrukturen."
+        },
+        "4": {
+          "title": "Kosteneffizienz",
+          "description": "Hohe Leistung und wirtschaftlicher Materialeinsatz für den täglichen Laboreinsatz."
+        },
+        "5": {
+          "title": "Anti-Haft-Formel",
+          "description": "Die proprietäre Oberflächenchemie erleichtert das Entfernen thermogeformter Schienen und reduziert das Risiko von Beschädigungen."
+        },
+        "6": {
+          "title": "Thermoformbar & hitzebeständig",
+          "description": "Hohe Wärmebeständigkeit und eine matte, stabile Oberfläche für zuverlässige Ergebnisse beim Thermoformen."
+        },
+        "7": {
+          "title": "Laborqualität",
+          "description": "Zuverlässige Druckergebnisse für den täglichen Einsatz im zahntechnischen Labor."
+        }
+      }
+    }
+  },
+  "ContractManufacturing": {
+    "hero": {
+      "pill": "CDMO · OEM · Private Label",
+      "titlePart1": "Vom Konzept",
+      "titlePart2": "zur ",
+      "titlePart2Italic": "kommerziellen",
+      "titlePart3": "Produktion.",
+      "description": "Wir sind spezialisiert auf Forschung, Entwicklung, Validierung im Pilotmaßstab und Auftragsherstellung von fortschrittlichen 3D-Druckharzen für globale Märkte – und helfen Kunden, Konzepte in zuverlässige, leistungsstarke Harzsysteme zu überführen.",
+      "connectBtn": "Virtuelles Meeting vereinbaren",
+      "quoteBtn": "Angebot anfordern",
+      "deckBtn": "Unternehmenspräsentation",
+      "card": {
+        "label": "Was wir tun",
+        "title": "End-to-End-Partner für die Harzherstellung",
+        "body": "Starke Kompetenzen in Formulierungswissenschaft, Prozessoptimierung und skalierbarer Fertigung – von der frühen R&D-Phase bis zur kommerziellen Produktion.",
+        "list": [
+          "Eigene Harzentwicklung & Formulierung",
+          "Pilotchargenproduktion & Validierung",
+          "Scale-up-Unterstützung & Prozessoptimierung",
+          "OEM / Private-Label-Herstellung",
+          "Abfüllung, Etikettierung & Export unter Ihrer Marke",
+          "Globale Lieferung mit NDA-Schutz"
+        ]
+      }
+    },
+    "ticker": [
+      "Individuelle Harzentwicklung",
+      "Pilotchargen-Validierung",
+      "OEM / Private Label",
+      "Skalierbare Fertigung",
+      "Formulierungswissenschaft",
+      "NDA-geschützt",
+      "Dental · Schmuck · Technik",
+      "Werke in Deutschland & Indien"
+    ],
+    "intro": {
+      "tag": "Über unser CDMO",
+      "title": "Harzherstellung.",
+      "titleAccent": "In jeder Phase.",
+      "paragraphs": [
+        "Wir sind spezialisiert auf Forschung, Entwicklung, Validierung im Pilotmaßstab und Auftragsherstellung von fortschrittlichen 3D-Druckharzen für globale Märkte. Mit starken Kompetenzen in Formulierungswissenschaft, Prozessoptimierung und skalierbarer Fertigung helfen wir Kunden, Konzepte in zuverlässige, leistungsstarke Harzsysteme zu überführen.",
+        "Unsere Dienstleistungen umfassen die Harzentwicklung nach Maß, die Produktion von Pilotchargen, Scale-up-Unterstützung und OEM/Private-Label-Herstellung – mit einem starken Fokus auf Konsistenz, Qualität und Vertraulichkeit.",
+        "Von der frühen R&D-Phase bis zur kommerziellen Produktion arbeiten wir mit Unternehmen weltweit zusammen, um innovative Harzlösungen zu entwickeln, die auf die sich entwickelnden Technologien der additiven Fertigung und chemischen Anforderungen abgestimmt sind."
+      ],
+      "cards": {
+        "formulation": {
+          "title": "Formulierungswissenschaft",
+          "desc": "Eigene Chemiekompetenz bei Photopolymersystemen, Härtungskinetik und Additivpaketen für Dental-, Guss- und Funktionsharze."
+        },
+        "optimisation": {
+          "title": "Prozessoptimierung",
+          "desc": "Systematische Skalierung vom Labormaßstab über die Pilotphase bis zur kommerziellen Produktion – mit vollständiger Prozessdokumentation und Transferunterstützung für Ihr Produktionsteam."
+        },
+        "scalable": {
+          "title": "Skalierbare Fertigung",
+          "desc": "Zwei Standorte in Indien und Deutschland ermöglichen eine flexible Produktion von Kleinstmengen (Pilotchargen) bis hin zu vollen kommerziellen Volumina bei gleichbleibender Qualität über alle Chargen hinweg."
+        },
+        "confidentiality": {
+          "title": "Vertraulichkeit & IP-Schutz",
+          "desc": "Vom ersten Kontakt an durch eine Vertraulichkeitsvereinbarung (NDA) geschützt. Ihre Formulierungsdetails, Markenstrategie und Kommerzialisierungspläne bleiben während des gesamten Prozesses absolut vertraulich."
+        }
+      }
+    },
+    "services": {
+      "tag": "Unsere Dienstleistungen",
+      "title": "Was wir ",
+      "titleAccent": "bieten",
+      "sub": "Sechs spezialisierte Dienstleistungen – individuell darauf abgestimmt, wo Sie sich auf Ihrer Produktreise befinden, vom ersten Konzept bis zum vollen kommerziellen Rollout.",
+      "list": {
+        "1": {
+          "title": "Maßgeschneiderte Harzentwicklung",
+          "desc": "Bespoke Photopolymer-Formulierungen nach Ihren Leistungsvorgaben – Viskosität, Härtungsgeschwindigkeit, mechanische Eigenschaften, Auswaschbarkeit und Farbe. Iterative Laborentwicklung mit vollständiger Übertragung des geistigen Eigentums.",
+          "tags": ["Formulierung", "R&D", "IP in Ihrem Besitz"]
+        },
+        "2": {
+          "title": "OEM / Private-Label-Herstellung",
+          "desc": "Ihre Marke auf unseren bewährten Harzformulierungen. Wir produzieren, füllen und etikettieren unter Ihrem Markennamen – vollständig White-Label, ohne Resinwork-Branding. Konsistenz, Qualität und absolute Diskretion garantiert.",
+          "tags": ["White Label", "Abfüllung & Etikettierung", "Exportbereit"]
+        },
+        "3": {
+          "title": "Pilotchargenproduktion",
+          "desc": "Schließen Sie die Lücke zwischen Laborprototyp und kommerziellem Maßstab. Wir produzieren Pilotchargen, validieren die Leistung anhand der Spezifikation und erstellen alle erforderlichen Qualitätskontroll- und Zulassungsunterlagen.",
+          "tags": ["Pilotmaßstab", "Qualitätskontrolle", "Zulassungsdokumente"]
+        },
+        "4": {
+          "title": "Scale-Up-Unterstützung",
+          "desc": "Systematischer Transfer vom Labor- in den Produktionsmaßstab. Wir steuern die Prozessoptimierung, die Parameterdokumentation und die Validierung der Ausbeute – um sicherzustellen, dass sich kommerzielle Chargen identisch zu den Laborproben verhalten.",
+          "tags": ["Prozessoptimierung", "Technologietransfer", "Ausbeute-Validierung"]
+        },
+        "5": {
+          "title": "Regulatorische Dokumentation",
+          "desc": "Vollständige TDS-, SDS/MSDS-, REACH- und RoHS-Dokumentation, erstellt von unserem internen technischen Team. Abgestimmt auf den jeweiligen Zielmarkt und das regulatorische Umfeld.",
+          "tags": ["TDS / SDS", "REACH", "Marktfertige Dokumente"]
+        },
+        "6": {
+          "title": "Verpackung & Export",
+          "desc": "UN-zertifizierte, gefahrgutkonforme Abfüllung und Verpackung. Wir bieten Kartuschen-, Flaschen- und Fassabfüllungen – sowie vollständige Exportdokumentation für den weltweiten Vertrieb in über 65 Länder.",
+          "tags": ["Abfüllung", "Gefahrgut zertifiziert", "Globaler Export"]
+        }
+      }
+    },
+    "expertise": {
+      "tag": "Anwendungsexpertise",
+      "title": "Bereiche, die wir ",
+      "titleAccent": "bedienen",
+      "sub": "Unsere Expertise erstreckt sich über mehrere Anwendungsbereiche – von der präzisen Dentalmodellierung über Guss- und Wachsharze für die Schmuckbranche bis hin zu leistungsstarken Industriesystemen.",
+      "left": {
+        "tag": "Branchenreichweite",
+        "title": "Drei Anwendungs-",
+        "titleAccent": "bereiche",
+        "body": "Unsere Formulierungswissenschaft umfasst Dental-, Schmuck- und technische Harze – und deckt Präzisions-, Guss- und funktionelle Industrieanforderungen über verschiedene 3D-Druckerplattformen hinweg ab."
+      },
+      "segments": [
+        {
+          "title": "Dental",
+          "desc": "Modell-, Stumpf-, Aligner- & Thermoformharze – aktueller Hauptfokus"
+        },
+        {
+          "title": "Schmuck",
+          "desc": "Gießbare & auswachbare Harze für den Feinguss (lost-wax)"
+        },
+        {
+          "title": "Engineering",
+          "desc": "Funktionelle Industrieharze – zähe, flexible, ABS-ähnliche und Spezialgüten"
+        }
+      ],
+      "right": {
+        "tag": "Fähigkeiten",
+        "list": [
+          "UV-, sichtbares Licht- & dualhärtende Photopolymersysteme im Viskositätsbereich von 50 bis 50.000 mPa·s",
+          "Gefüllte & pigmentierte Systeme – Keramik, Kieselsäure, Kohlenstoff und kundenspezifische Farbpakete",
+          "Chargengrößen von 1 kg Laborproben bis hin zu kommerziellen 10.000 kg Produktionsläufen",
+          "Zukunftsfähige Additive-Manufacturing-Chemie – kompatibel mit MSLA-, DLP- und SLA-Druckerplattformen"
+        ]
+      }
+    },
+    "sectors": {
+      "tag": "Branchen im Fokus",
+      "title": "Präzisions-, Guss- &",
+      "titleAccent": "funktionale Anforderungen",
+      "sub": "Von der zahnmedizinischen Präzision über den Schmuckguss bis hin zur industriellen Technik – Harzsysteme, die auf die Anforderungen jeder Anwendung zugeschnitten sind.",
+      "list": [
+        {
+          "num": "Hauptfokus · 01",
+          "title": "Dentalmodellierung",
+          "desc": "Thermoformbare Harze für Aligner-Modelle, Stumpfsysteme und Arbeitsmodelle. Anti-Haft-Oberflächenchemie, hohe Temperaturbeständigkeit, vier Standardfarbvarianten."
+        },
+        {
+          "num": "02",
+          "title": "Schmuckguss",
+          "desc": "Gießbare & auswachbare Harze mit nahezu rückstandsfreier Verbrennung für den Feinguss. Kompatibel mit Gold-, Silber- und Platin-Workflows."
+        },
+        {
+          "num": "03",
+          "title": "Technische Harze",
+          "desc": "Zähe, flexible und ABS-ähnliche Harzsysteme für funktionelles Prototyping und industrielle Endbauteile. Shore-Härtebereich 40A–90D."
+        }
+      ]
+    },
+    "process": {
+      "tag": "Wie wir arbeiten",
+      "title": "Vom Briefing zur ",
+      "titleAccent": "Charge",
+      "sub": "Ein klarer, fünfstufiger Partnerschaftsprozess – so strukturiert, dass Sie bei jedem Meilenstein die volle Kontrolle und Sicherheit haben.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Anfrage & NDA",
+          "desc": "Teilen Sie Ihr Briefing. NDA unterzeichnen. Absolute Vertraulichkeit ab dem ersten Kontakt."
+        },
+        {
+          "num": "02",
+          "title": "Angebot & Spezifikation",
+          "desc": "Formulierungsbriefing, Angebot, Zeitplan und MOQ werden bestätigt."
+        },
+        {
+          "num": "03",
+          "title": "R&D & Pilotphase",
+          "desc": "Laborentwicklung, iterative Tests, Pilotcharge, Freigabe durch den Kunden."
+        },
+        {
+          "num": "04",
+          "title": "Validierung & Dokumente",
+          "desc": "QC-Freigabe, TDS/SDS-Dokumentation, Scale-up-Prozess gesperrt."
+        },
+        {
+          "num": "05",
+          "title": "Kommerzielle Produktion",
+          "desc": "Großserienfertigung, Abfüllung, Etikettierung und weltweiter Export unter Ihrer Marke."
+        }
+      ]
+    },
+    "differentiators": {
+      "tag": "Warum Sie sich für uns entscheiden sollten",
+      "title": "Was uns ",
+      "titleAccent": "auszeichnet",
+      "rows": [
+        {
+          "num": "01",
+          "title": "Eigene R&D",
+          "head": "Was das bedeutet",
+          "body": "Jede Formulierung wird in unseren eigenen Labors in Deutschland und Indien entwickelt. Kein Outsourcing – vollständiges IP-Eigentum, schnelle Iteration und direkter Zugang zu unseren Chemikern während des gesamten Projekts.",
+          "tags": ["Labor Deutschland", "Labor Indien", "IP liegt bei Ihnen"]
+        },
+        {
+          "num": "02",
+          "title": "Skalierbarkeit",
+          "head": "Was das bedeutet",
+          "body": "Zwei Produktionsstätten in Indien (Hauptwerk) und Deutschland (Europa) ermöglichen eine flexible Produktion – von Pilotmengen bis hin zu vollen kommerziellen Volumina – mit gleichbleibender Chargenqualität auf jeder Ebene.",
+          "tags": ["Indien · Hauptwerk", "Deutschland · EU", "Pilot bis Kommerziell"]
+        },
+        {
+          "num": "03",
+          "title": "Rückverfolgbarkeit",
+          "head": "Was das bedeutet",
+          "body": "Chargengesteuerte Produktion mit lückenloser Rückverfolgbarkeit der Rohstoffe vom Lieferanten bis zum fertigen Produkt. Jede kommerzielle Charge wird durch Analysezertifikate, QC-Daten und vollständige Dokumentation gestützt.",
+          "tags": ["CoA", "QC-Daten", "Chargenprotokolle"]
+        },
+        {
+          "num": "04",
+          "title": "15+ Jahre Chemie",
+          "head": "Was das bedeutet",
+          "body": "Mehr als 15 Jahre Erfahrung in der Spezialchemieherstellung bedeuten, dass wir die industrielle Chemie verstehen, nicht nur die Harzformulierung. Prozessdisziplin, Rohstoffkompetenz und regulatorisches Wissen, das über Jahre aufgebaut wurde.",
+          "tags": ["Spezialchemie", "Regulatorisches Wissen"]
+        },
+        {
+          "num": "05",
+          "title": "Globale Reichweite",
+          "head": "Was das bedeutet",
+          "body": "Aktive Belieferung von über 65 Ländern mit etablierter Gefahrgut-Exportdokumentation, UN-zertifizierter Verpackungskonformität und Verständnis der regionalen regulatorischen Anforderungen in wichtigen globalen Märkten.",
+          "tags": ["65+ Länder", "Gefahrgut zertifiziert", "UN-Verpackung"]
+        }
+      ]
+    }
+  },
+  "ProductsSection": {
+    "title": "Next-Gen Materialportfolio",
+    "description": "Entdecken Sie unsere neuesten hochpräzisen, klinisch optimierten und industrietauglichen Photopolymere, die speziell für professionelle dentale Modellierungs-, Tiefzieh- und Fertigungsworkflows entwickelt wurden.",
+    "newArrival": "Neu Hinzugefügt",
+    "requestSample": "Muster Anfordern",
+    "moq": "Mindestbestellmenge: 1kg",
+    "discountBadge": "CDMO-Rabatt",
+    "ratingLabel": "★ 4.9 Rating",
+    "learnMore": "Mehr erfahren",
+    "model4": {
+      "name": "Model 4",
+      "subTitle": "Tiefziehhartes Dentalharz",
+      "price": "Ab 49 € / kg"
+    },
+    "model3": {
+      "name": "Model 3",
+      "subTitle": "Wasserwaschbar Tiefziehharz",
+      "price": "Ab 45 € / kg"
+    },
+    "model2": {
+      "name": "Model 2",
+      "subTitle": "Gipsähnliches Modellierharz",
+      "price": "Ab 39 € / kg"
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "tag": "Kontaktieren Sie uns",
+      "title": "Wir sind hier, um zu ",
+      "titleAccent": "helfen",
+      "desc": "Sind Sie an einem unserer Harze interessiert und möchten ein Angebot oder die technischen Details dazu? Haben Sie eine Frage, einen Vorschlag oder eine Idee, die Sie uns mitteilen möchten? Wir freuen uns darauf. Füllen Sie das folgende Formular aus und unser Team wird sich umgehend mit Ihnen in Verbindung setzen – oder erreichen Sie uns direkt per Telefon oder E-Mail."
+    },
+    "cards": [
+      {
+        "title": "Vertriebspartner-Anfrage",
+        "desc": "Möchten Sie das dentale Harzsortiment von Resinwork in Ihrem Markt vertreten? Lassen Sie uns über Gebiete, Mengen und Konditionen sprechen.",
+        "linkText": "Kontakt aufnehmen →"
+      },
+      {
+        "title": "OEM / Private Label",
+        "desc": "Bringen Sie Harze unter Ihrer eigenen Marke auf den Markt. Wir kümmern uns um Rezeptur, Abfüllung, Etikettierung und Export – Sie um den Markt.",
+        "linkText": "Kontakt aufnehmen →"
+      },
+      {
+        "title": "Auftragsherstellung",
+        "desc": "Von der kundenspezifischen Rezeptur über Pilotchargen bis hin zur Großserienfertigung – ein Fertigungspartner, der sich nach Ihren Wünschen richtet.",
+        "linkText": "Kontakt aufnehmen →"
+      }
+    ],
+    "regions": {
+      "tag": "Globales Netzwerk",
+      "title": "Finden Sie Ihre ",
+      "titleAccent": "Region",
+      "sub": "Fahren Sie mit der Maus über eine Region, um das lokale Team zu sehen. Weitere Länder kommen hinzu, wenn wir wachsen.",
+      "hint": "Das Hovern funktioniert mit einer Maus – auf Touch-Geräten tippen Sie auf eine Region, um deren Ansprechpartner anzuzeigen.",
+      "comingSoon": "Ansprechpartner in Kürze",
+      "items": [
+        {
+          "num": "01",
+          "name": "Asien",
+          "hasContact": true,
+          "countries": [
+            {
+              "name": "Indien",
+              "isHq": true,
+              "contactName": "Regionaler Betrieb",
+              "phone": "1800 - 102 - 0525",
+              "phoneRaw": "+9118001020525",
+              "email": "india@resinwork.com"
+            }
+          ]
+        },
+        {
+          "num": "02",
+          "name": "Europa",
+          "hasContact": true,
+          "countries": [
+            {
+              "name": "Deutschland",
+              "isHq": false,
+              "contactName": "Europa Vertrieb",
+              "phone": "+49 [XXX XXXXXXX]",
+              "phoneRaw": "+49000000000",
+              "email": "germany@resinwork.com"
+            }
+          ]
+        },
+        {
+          "num": "03",
+          "name": "Amerika",
+          "hasContact": false
+        },
+        {
+          "num": "04",
+          "name": "Afrika",
+          "hasContact": false
+        },
+        {
+          "num": "05",
+          "name": "Australien",
+          "hasContact": false
+        }
+      ]
+    }
+  }
+}
