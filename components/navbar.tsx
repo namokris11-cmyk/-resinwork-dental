@@ -131,8 +131,8 @@ export default function Navbar() {
     const targetUrl = `${basePath}#${sectionId}`;
     console.log(`🚀 Navigating to ${targetUrl}`);
 
-    // Use router.push for navigation
-    router.push(targetUrl);
+    // Use router.push for navigation (Dental content is always served in German)
+    router.push(targetUrl, { locale: "de" });
   };
 
   const handleSearch = (query: string) => {
@@ -172,6 +172,7 @@ export default function Navbar() {
                   >
                     <Link
                       href={item.href}
+                      locale={item.href === "/dental" ? "de" : undefined}
                       className={`flex items-center rounded-md text-sm transition-colors group gap-1.5 ${
                         item.isShop
                           ? "border border-brand text-brand hover:bg-brand/20 font-semibold  px-3 py-1.5"
@@ -331,6 +332,7 @@ export default function Navbar() {
                         <Link
                           key={item.name}
                           href={item.href}
+                          locale={item.href === "/dental" ? "de" : undefined}
                           onClick={handleNavClick}
                           className="flex items-center px-4 py-4 text-lg font-medium rounded-xl transition-all duration-200 group gap-2 text-white hover:text-brand hover:bg-white/10"
                         >

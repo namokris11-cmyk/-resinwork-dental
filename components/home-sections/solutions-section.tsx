@@ -132,7 +132,7 @@ const SolutionsSection = () => {
             </div>
           </div>
           <div className="col-span-10 space-y-2 pe-2 pb-2">
-            <Link href="/dental">
+            <Link href="/de/dental">
               {" "}
               <div className="relative">
                 <Image src={Solution1} alt="" />
@@ -265,7 +265,7 @@ const SolutionsSection = () => {
 
               return index === 0 ? (
                 <Link
-                  href={`/${current_language}/dental`}
+                  href="/de/dental"
                   key={item.id}
                   className="contents"
                 >
