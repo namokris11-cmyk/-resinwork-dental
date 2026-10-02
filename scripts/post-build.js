@@ -19,18 +19,18 @@ const indexHtml = `<!DOCTYPE html>
                 if (savedLang && ['en', 'de'].includes(savedLang)) {
                     return savedLang;
                 }
-                
+
                 // Check browser language
                 const browserLang = navigator.language || navigator.userLanguage;
-                if (browserLang.startsWith('de')) {
-                    return 'de';
+                if (browserLang.startsWith('en')) {
+                    return 'en';
                 }
             } catch (e) {
                 // Fallback if localStorage access fails
             }
-            
-            // Default to English
-            return 'en';
+
+            // Default to German
+            return 'de';
         }
         
         // Redirect to appropriate language
@@ -48,13 +48,13 @@ const indexHtml = `<!DOCTYPE html>
         }
     </script>
     <noscript>
-        <meta http-equiv="refresh" content="0; url=en/">
+        <meta http-equiv="refresh" content="0; url=de/">
     </noscript>
 </head>
 <body>
     <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
         <h2>Redirecting...</h2>
-        <p>If you are not redirected automatically, <a href="en/">click here for English</a> or <a href="de/">hier für Deutsch</a>.</p>
+        <p>Falls Sie nicht automatisch weitergeleitet werden, <a href="de/">hier für Deutsch klicken</a> or <a href="en/">click here for English</a>.</p>
     </div>
 </body>
 </html>`;
@@ -113,8 +113,8 @@ RewriteRule ^ - [L]
 
 // Create Netlify redirects (for Netlify testing)
 const netlifyRedirects = `# Netlify redirects file
-# Redirect root to /en/ by default
-/    /en/    302
+# Redirect root to /de/ by default
+/    /de/    302
 
 # Handle language-specific redirects based on Accept-Language header
 /    /de/    302    Language=de
