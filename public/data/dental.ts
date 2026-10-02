@@ -230,55 +230,6 @@ export const productData: Product[] = [
       },
     ],
   },
-  {
-    id: 5,
-    name: "Digital Dentures",
-    navic_id: "dentures",
-    category: "Dental",
-    subTitle:
-      "Grow your practice with the most approachable workflow in 3D printing",
-    description:
-      "Help fight the rise in grinding and clenching by delivering more night guards with Resinwork. Featuring the industry's easiest workflow including AI design, 3D printing, and simple post processing, you can go from scan to place in less than an hour. With long-lasting materials that become flexible at body temperature and a no-CAD design system, protecting smiles has never been this affordable, repeatable, and profitable.",
-    features: [
-      {
-        id: 1,
-        title: "Clinically formulated for translucency",
-        description:
-          "Highly scalable platform for processing bulk & online remittance transactions  received from Exchange Houses across the globe ",
-        icon: "/category-section/1.svg",
-      },
-      {
-        id: 2,
-        title: "Improved flexibility ",
-        description:
-          "Highly scalable platform for processing bulk & online remittance transactions  received from Exchange Houses across the globe ",
-        icon: "/category-section/2.svg",
-      },
-      {
-        id: 3,
-        title: "fracture toughness vs first generation ",
-        description:
-          "Highly scalable platform for processing bulk & online remittance transactions  received from Exchange Houses across the globe ",
-        icon: "/category-section/3.svg",
-      },
-      {
-        id: 4,
-        title: "Impact Strength",
-        description:
-          "Highly scalable platform for processing bulk & online remittance transactions  received from Exchange Houses across the globe ",
-        icon: "/category-section/4.svg",
-      },
-      {
-        id: 5,
-        title: "Resistance to Scratching",
-        description:
-          "Highly scalable platform for processing bulk & online remittance transactions  received from Exchange Houses across the globe.",
-        icon: "/category-section/4.svg",
-      },
-    ],
-    images: [{ id: 1, img: "/product-img/new2.png" }],
-  },
-
 ];
 
 export const dentalProducts: Product[] = productData.filter(

@@ -9,10 +9,6 @@ const DentalHeroSection = () => {
       <div className="md:hidden">
         <div>
           <p className="text-[var(--text-subheading)] opacity-55  ps-5 pt-4 text-[18px] md:text-[20px]  font-light flex items-center gap-2 flex-wrap">
-            <span>{t("breadcrumb.home")}</span>
-            <span className="mx-1">›</span>
-            <span>{t("breadcrumb.dental")}</span>
-            <span className="mx-1">›</span>
             <span className="text-amber-400">{t("breadcrumb.products")}</span>
           </p>
           <div className="w-full relative mt-4 ">
@@ -54,10 +50,6 @@ const DentalHeroSection = () => {
               <div className="containe mx-auto lg:px-[4rem] px-4 sm:px-6 md:px-8  xl:px-12  ">
                 {/* Breadcrumb */}
                 <p className="text-white text-[18px] md:text-[20px]  font-light flex items-center gap-2 flex-wrap">
-                  <span>{t("breadcrumb.home")}</span>
-                  <span className="mx-1">›</span>
-                  <span>{t("breadcrumb.dental")}</span>
-                  <span className="mx-1">›</span>
                   <span className="text-amber-400">
                     {t("breadcrumb.products")}
                   </span>

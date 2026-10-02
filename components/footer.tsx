@@ -2,7 +2,7 @@
 
 import type React from "react";
 import Image from "next/image";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -31,6 +31,8 @@ const contactFormSchema = z.object({
 type ContactFormData = z.infer<typeof contactFormSchema>;
 
 const Footer: React.FC = () => {
+  const pathname = usePathname();
+  const isDentalPage = pathname === "/dental";
   const [loading, setLoading] = useState(false);
   const contactForm = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
@@ -88,6 +90,7 @@ const Footer: React.FC = () => {
   return (
     <>
       {/* ═══ CONTACT ═══ */}
+      {!isDentalPage && (
       <div className="py-[88px] bg-[#f0ece3] dark:bg-[#0c0c0c]" id="contact">
         <div className="max-w-[1160px] mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_1.15fr] gap-16 items-start">
@@ -408,6 +411,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+      )}
 
       {/* ═══ FOOTER ═══ */}
       <footer className="bg-[#141210] dark:bg-black text-white border-t border-white/5 pt-14 pb-0">
@@ -418,9 +422,9 @@ const Footer: React.FC = () => {
                 <Image
                   src="/logo.svg"
                   alt="Logo"
-                  width={180}
-                  height={60}
-                  className="mb-6 lg:w-[80%] opacity-90"
+                  width={isDentalPage ? 100 : 180}
+                  height={isDentalPage ? 33 : 60}
+                  className={isDentalPage ? "mb-6 opacity-90" : "mb-6 lg:w-[80%] opacity-90"}
                 />
               </div>
               <div className="text-[13px] text-white/35 font-medium mb-6 leading-[1.75]">
@@ -476,6 +480,7 @@ const Footer: React.FC = () => {
                   1800-102-0525
                 </a>
               </li>
+              {!isDentalPage && (
               <li>
                 <a
                   href="mailto:cdmo@resinwork.com"
@@ -484,6 +489,7 @@ const Footer: React.FC = () => {
                   cdmo@resinwork.com
                 </a>
               </li>
+              )}
               <li>
                 <a
                   href="mailto:sales@resinwork.com"
@@ -494,7 +500,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <span className="text-[13px] text-white/35 font-medium">
-                  {t("contactUs.hours")}
+                  {isDentalPage ? "Mon - Fri: 10:00 - 19:00 (CET)" : t("contactUs.hours")}
                 </span>
               </li>
             </ul>
