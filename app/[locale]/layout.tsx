@@ -98,7 +98,7 @@ export default async function RootLayout({
         /> */}
       </head>
       <body className="font-satoshi antialiased bg-primary text-text min-h-screen scrollbar-hidden">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
