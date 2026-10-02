@@ -32,7 +32,7 @@ type ContactFormData = z.infer<typeof contactFormSchema>;
 
 const Footer: React.FC = () => {
   const pathname = usePathname();
-  const isDentalPage = pathname === "/dental";
+  const isDentalPage = pathname === "/dental" || pathname === "/dental/";
   const [loading, setLoading] = useState(false);
   const contactForm = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),

@@ -96,7 +96,7 @@ export default function Navbar() {
   */
   const router = useRouter();
   const pathname = usePathname();
-  const isDentalPage = pathname === "/dental";
+  const isDentalPage = pathname === "/dental" || pathname === "/dental/";
   const [bannerImage, setBannerImage] = useState("");
 
   const { handleSectionClick, isNavigating } = useNavigation({
