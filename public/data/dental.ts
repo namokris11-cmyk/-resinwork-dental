@@ -5,6 +5,7 @@ export interface ProductImage {
   img: string;
   color?: string;
   colorName?: string;
+  articleNumber?: string;
 }
 
 export interface ProductFeature {
@@ -91,19 +92,22 @@ export const productData: Product[] = [
         id: 4,
         img: "/product-img/Aquaforge Almond.jpg",
         color: "#E3CBA4",
-        colorName: "Almond",
+        colorName: "Aquaforge (Almond)",
+        articleNumber: "2511-0445",
       },
       {
         id: 5,
         img: "/product-img/Aquaforge Grey.jpg",
         color: "#808080",
-        colorName: "Gray",
+        colorName: "Aquaforge (Grey)",
+        articleNumber: "2511-0444",
       },
       {
         id: 6,
         img: "/product-img/Birch Beige.jpg",
         color: "#D2B48C",
-        colorName: "Birch Beige",
+        colorName: "Birch (Beige)",
+        articleNumber: "2511-0446",
       },
     ],
   },
@@ -149,19 +153,29 @@ export const productData: Product[] = [
         id: 4,
         img: "/product-img/Aquaforge Almond.jpg",
         color: "#E3CBA4",
-        colorName: "Almond",
+        colorName: "Aquaforge (Almond)",
+        articleNumber: "2511-0408",
       },
       {
         id: 5,
         img: "/product-img/Aquaforge Grey.jpg",
         color: "#808080",
-        colorName: "Gray",
+        colorName: "Aquaforge (Grey)",
+        articleNumber: "2511-0381",
       },
       {
         id: 6,
         img: "/product-img/Birch Beige.jpg",
         color: "#D2B48C",
-        colorName: "Birch Beige",
+        colorName: "Birch (Beige)",
+        articleNumber: "2511-0415",
+      },
+      {
+        id: 7,
+        img: "/product-img/f-p6.png",
+        color: "#FFFFFF",
+        colorName: "Snowcream (White)",
+        articleNumber: "2511-0410",
       },
     ],
   },
@@ -200,33 +214,14 @@ export const productData: Product[] = [
       },
     ],
     images: [
-      { id: 1, img: "/product-img/f-main.png" },
       { id: 1, img: "/product-img/f-p1.png" },
       { id: 2, img: "/product-img/f-p2.png" },
-      { id: 3, img: "/product-img/f-p3.png" },
       {
         id: 4,
         img: "/product-img/f-p4.png",
         color: "#E3CBA4",
-        colorName: "Birch Beige",
-      },
-      {
-        id: 5,
-        img: "/product-img/f-p5.png",
-        color: "#E5E5E5",
-        colorName: "Transparent",
-      },
-      {
-        id: 6,
-        img: "/product-img/new1.png",
-        color: "#808080",
-        colorName: "Gray",
-      },
-      {
-        id: 7,
-        img: "/product-img/f-p6.png",
-        color: "#FFFFFF",
-        colorName: "White",
+        colorName: "Birch (Beige)",
+        articleNumber: "2511-0279",
       },
     ],
   },
