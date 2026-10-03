@@ -29,6 +29,7 @@ interface Product {
   description: string;
   features: ProductFeature[];
   images: ProductImage[];
+  datasheetUrl?: string;
 }
 
 gsap.registerPlugin(ScrollTrigger);
@@ -331,12 +332,18 @@ const MobileDentalProductSection: React.FC = () => {
                   )}
                 </div>
               </div>
-              <div className="bg-[var(--bg-primary)]">
-                <button className="text-[var(--text-subheading)]  px-4 rounded-md py-[1rem] md:py-[2rem] flex space-x-2 items-center cursor-pointer">
-                  <span>{t("download")}</span>
-                  <FileText />
-                </button>
-              </div>
+              {product.datasheetUrl && (
+                <div className="bg-[var(--bg-primary)]">
+                  <a
+                    href={product.datasheetUrl}
+                    download
+                    className="text-[var(--text-subheading)]  px-4 rounded-md py-[1rem] md:py-[2rem] flex space-x-2 items-center cursor-pointer"
+                  >
+                    <span>{t("download")}</span>
+                    <FileText />
+                  </a>
+                </div>
+              )}
             </div>
 
             {/* Right side - image */}
@@ -381,7 +388,7 @@ const MobileDentalProductSection: React.FC = () => {
                     />
                   </div>
 
-                  <div className="flex  md:flex-row justify-between items-start bg-[var(--bg-primary)] pt-3 pb-3">
+                  <div className="flex  md:flex-row justify-between items-center bg-[var(--bg-primary)] pt-3">
                     {/* Thumbnail Images */}
                     <div className="flex space-x-1 px-2  py-3 md:mt-4 col-span-6 items-center h-full ms-0 md:ms-3 overflow-x-auto w-full md:w-auto">
                       {product.images
@@ -421,9 +428,9 @@ const MobileDentalProductSection: React.FC = () => {
                     {product.images.some(
                       (image: ProductImage) => image.color
                     ) && (
-                      <div className=" mt-2 md:mt-4 flex justify-between items-start space-x-2 w-fit md:w-auto">
+                      <div className=" mt-2 md:mt-4 flex justify-between  space-x-2 h-full w-fit md:w-auto">
                         {/* <h2 className='text-[.9rem] t1'>Colours</h2> */}
-                        <div className="flex flex-nowrap items-start gap-2 md:gap-4 overflow-x-auto w-full py-2 px-1  pb-2">
+                        <div className="flex flex-nowrap gap-2 md:gap-4 overflow-x-auto w-full py-2 px-1  pb-2">
                           {product.images
                             .filter((image: ProductImage) => image.color)
                             .map((image: ProductImage, colorIndex) => {
@@ -432,7 +439,7 @@ const MobileDentalProductSection: React.FC = () => {
                               return (
                                 <div
                                   key={`color-${product.id}-${colorIndex}`}
-                                  className="flex flex-col items-center flex-shrink-0"
+                                  className="relative flex flex-col items-center flex-shrink-0"
                                 >
                                   <button
                                     onClick={() =>
@@ -450,13 +457,17 @@ const MobileDentalProductSection: React.FC = () => {
                                     style={{ backgroundColor: image.color }}
                                     aria-label={`Select ${image.colorName} color`}
                                   />
-                                  <span className="mt-2 text-[0.65rem] t1 opacity-70 whitespace-nowrap text-center">
-                                    {image.colorName}
-                                  </span>
-                                  {image.articleNumber && (
-                                    <span className="text-[0.6rem] t1 opacity-50 whitespace-nowrap text-center">
-                                      {image.articleNumber}
-                                    </span>
+                                  {isSelected && (
+                                    <div className="absolute top-[1.8rem] flex flex-col items-center">
+                                      <span className="text-[0.65rem] t1 opacity-70 whitespace-nowrap">
+                                        {image.colorName}
+                                      </span>
+                                      {image.articleNumber && (
+                                        <span className="text-[0.6rem] t1 opacity-50 whitespace-nowrap">
+                                          {image.articleNumber}
+                                        </span>
+                                      )}
+                                    </div>
                                   )}
                                 </div>
                               );

@@ -24,6 +24,7 @@ export interface Product {
   description: string;
   features: ProductFeature[];
   images: ProductImage[];
+  datasheetUrl?: string;
 }
 
 export const productData: Product[] = [
@@ -32,6 +33,7 @@ export const productData: Product[] = [
     name: "MODEL 4",
     navic_id: "model_4",
     category: "Dental",
+    datasheetUrl: "/datasheets/model-4-datenblatt.pdf",
     subTitle: "3D Photopolymer Dental resin for vacuum/pressure thermoforming",
     description:
       "Resinwork® Model 4 is an advanced, IPA washable 3D printing resin engineered specifically for dental thermoforming applications. Designed to deliver high thermal resistance and dimensional accuracy, Model 4 ensures reliable performance under vacuum and pressure forming conditions. Formulated with Resinwork’s proprietary Anti-Stick Surface Chemistry, Model 4 enables effortless removal of thermoformed appliances—such as retainers, aligners, nightguards, and sportguards—without damage to the model or appliance. This unique surface release property significantly reduces the risk of breakage and enhances workflow efficiency in dental labs. Unlike conventional resins, Model 4 features a stable, matte finish that resists sticking to heated substrates and ensures consistent results. Its high pigment stability eliminates the need for frequent mixing. Whether you're fabricating clear aligners or custom appliances,Resinwork® Model 4 is your go-to solution for dependable, lab-grade performance. In addition, Resinwork® Model 4 delivers outstanding print precision and dimensional fidelity while remaining cost-efficient for everyday lab production. Its optimized formulation supports consistent print quality across multiple builds, making it suitable not only for dental workflows but also for a wide range of high-precision 3D printing applications.",
@@ -116,6 +118,7 @@ export const productData: Product[] = [
     name: "MODEL 3",
     category: "Dental",
     navic_id: "model_3",
+    datasheetUrl: "/datasheets/model-3-datenblatt.pdf",
     subTitle: "3D Photopolymer Dental resin for vacuum/pressure thermoforming",
     description:
       "Resinwork® Model 3 is an advanced, IPA & water-washable 3D printing resin engineered specifically for dental thermoforming applications. Designed to deliver high thermal resistance and dimensional accuracy, Model 3 ensures reliable performance under vacuum and pressure forming conditions.Formulated with Resinwork's proprietary Anti-Stick Surface Chemistry, Model 3 enables effortless removal of thermoformed appliances—such as retainers, aligners, nightguards, and sportguards—without damage to the model or appliance. This unique surface release property significantly reduces the risk of breakage and enhances workflow efficiency in dental labs.Unlike conventional resins, Model 3 features a stable, matte finish that resists sticking to heated substrates and ensures consistent results. Its high pigment stability eliminates the need for frequent mixing, while its water-washable composition provides safe, eco- friendly handling—no alcohol or chemical cleaners required.Whether you're fabricating clear aligners or custom appliances, Resinwork® Model 3 is your go-to solution for dependable, lab-grade performance.",

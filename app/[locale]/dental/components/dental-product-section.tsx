@@ -402,7 +402,7 @@ const DentalProductSection: React.FC = () => {
                       }
                     />
                   </div>
-                  <div className="flex justify-between items-start bg-[var(--bg-primary)] pb-4">
+                  <div className="flex justify-between items-center bg-[var(--bg-primary)]">
                     {/* Thumbnail Images */}
                     <div className="flex space-x-1 mt-4 col-span-6 items-center h-full ms-3">
                       {product.images
@@ -439,9 +439,9 @@ const DentalProductSection: React.FC = () => {
                     </div>
                     {/* Color Swatches */}
                     {product.images.some((image) => image.color) && (
-                      <div className="col-span-5 mt-4 flex items-start space-x-2">
-                        <h2 className="text-[.9rem] t1 mt-1">Colours</h2>
-                        <div className="flex flex-wrap gap-4 items-start">
+                      <div className="col-span-5 mt-4 flex items-center space-x-2 h-full">
+                        <h2 className="text-[.9rem] t1">Colours</h2>
+                        <div className="flex flex-wrap gap-4 items-center">
                           {product.images
                             .filter((image) => image.color)
                             .map((image, colorIndex) => {
@@ -450,7 +450,7 @@ const DentalProductSection: React.FC = () => {
                               return (
                                 <div
                                   key={`color-${product.id}-${colorIndex}`}
-                                  className="flex flex-col items-center"
+                                  className="relative flex flex-col items-center"
                                 >
                                   <button
                                     onClick={() =>
@@ -468,13 +468,17 @@ const DentalProductSection: React.FC = () => {
                                     style={{ backgroundColor: image.color }}
                                     aria-label={`Select ${image.colorName} color`}
                                   />
-                                  <span className="mt-2 text-[0.7rem] t1 opacity-70 whitespace-nowrap text-center">
-                                    {image.colorName}
-                                  </span>
-                                  {image.articleNumber && (
-                                    <span className="text-[0.65rem] t1 opacity-50 whitespace-nowrap text-center">
-                                      {image.articleNumber}
-                                    </span>
+                                  {isSelected && (
+                                    <div className="absolute top-[2rem] flex flex-col items-center">
+                                      <span className="text-[0.7rem] t1 opacity-70 whitespace-nowrap">
+                                        {image.colorName}
+                                      </span>
+                                      {image.articleNumber && (
+                                        <span className="text-[0.65rem] t1 opacity-50 whitespace-nowrap">
+                                          {image.articleNumber}
+                                        </span>
+                                      )}
+                                    </div>
                                   )}
                                 </div>
                               );
@@ -483,12 +487,18 @@ const DentalProductSection: React.FC = () => {
                       </div>
                     )}
                   </div>
-                  <div className="bg-[var(--bg-primary)]">
-                    <button className="text-[var(--text-subheading)] px-4 rounded-md py-[2rem] flex space-x-2 items-center cursor-pointer">
-                      <span>{t("download")}</span>
-                      <FileText />
-                    </button>
-                  </div>
+                  {product.datasheetUrl && (
+                    <div className="bg-[var(--bg-primary)]">
+                      <a
+                        href={product.datasheetUrl}
+                        download
+                        className="text-[var(--text-subheading)] px-4 rounded-md py-[2rem] flex space-x-2 items-center cursor-pointer"
+                      >
+                        <span>{t("download")}</span>
+                        <FileText />
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
